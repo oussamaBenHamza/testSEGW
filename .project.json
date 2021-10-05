@@ -1,0 +1,46 @@
+{
+	"Credential": "cf",
+	"CF": {
+		"Target": "https://api.cf.eu10.hana.ondemand.com",
+		"Organization": "994e5b40-51a6-473a-8d40-a4061e0d0ba7",
+		"Space": "c1ed7f6a-4f97-4806-9c45-56cf9288860b",
+		"Deploy": {
+			"Description": "",
+			"WebClient": {
+				"Version": "",
+				"URL": ""
+			},
+			"Destination": [
+				{
+					"CF": "",
+					"MDK": "PointsDeMesureSEGW",
+					"URL": ""
+				}
+			]
+		}
+	},
+	"MobileService": {
+		"Type": "standard",
+		"AdminAPI": "https://mobile-service-cockpit-api.cfapps.eu10.hana.ondemand.com/cockpit/v1/org/994e5b40-51a6-473a-8d40-a4061e0d0ba7/space/c1ed7f6a-4f97-4806-9c45-56cf9288860b",
+		"AppId": "PointsDeMesureSEGW",
+		"Destination": [
+			"com.sap.edm.sampleservice.v2",
+			"PointsDeMesureSEGW"
+		]
+	},
+	"Onboarding": {
+		"Schema": "sapmobilesvcs",
+		"TimeZone": "UTC",
+		"URL": "sapmobilesvcs://?AppId=PointsDeMesureSEGW&ClientId=7b072bd8-01df-4866-8fc7-9153c8ab65ea&ServerUrl=https://grtgaz-gai-dev-puma-int-pointsdemesuresegw.cfapps.eu10.hana.ondemand.com&SapCloudPlatformEndpoint=https://grtgaz-gai-dev-puma-int-pointsdemesuresegw.cfapps.eu10.hana.ondemand.com&AuthorizationEndpointUrl=https://grtgaz-gai-dev-puma-int-pointsdemesuresegw.cfapps.eu10.hana.ondemand.com/oauth2/api/v1/authorize&RedirectUrl=https://grtgaz-gai-dev-puma-int-pointsdemesuresegw.cfapps.eu10.hana.ondemand.com&TokenUrl=https://grtgaz-gai-dev-puma-int-pointsdemesuresegw.cfapps.eu10.hana.ondemand.com/oauth2/api/v1/token"
+	},
+	"LCAP": {
+		"Service": [],
+		"sourceTemplate": {
+			"id": "html5moduletemplates.basicSAPUI5ApplicationProjectModule",
+			"version": "1.40.12"
+		}
+	},
+	"Build": {
+		"SourceMap": true
+	}
+}

@@ -1,0 +1,12 @@
+{
+    "Service": "/testsegw/Services/PointsDeMesureSEGW.service",
+    "DefiningRequests": [{
+        "Name": "OrderTypeSet",
+        "Query": "OrderTypeSet"
+    }],
+    "_Type": "Action.Type.OfflineOData.Download",
+    "ActionResult": {
+        "_Name": "sync"
+    },
+    "OnFailure": "/testsegw/Actions/Service/SyncFailureMessage.action"
+}

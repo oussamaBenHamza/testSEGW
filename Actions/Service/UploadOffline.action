@@ -1,0 +1,9 @@
+{
+    "Service": "/testsegw/Services/PointsDeMesureSEGW.service",
+    "_Type": "Action.Type.OfflineOData.Upload",
+    "ActionResult": {
+        "_Name": "sync"
+    },
+    "OnSuccess": "/testsegw/Actions/Service/DownloadStartedMessage.action",
+    "OnFailure": "/testsegw/Actions/Service/SyncFailureMessage.action"
+}

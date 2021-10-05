@@ -1,0 +1,45 @@
+{
+    "Caption": "OrderType",
+
+    "ActionBar": {
+        "Items": []
+    },
+    "Controls": [{
+        "Sections": [{
+            "ObjectHeader": {
+                "DetailImage": "",
+                "HeadlineText": "{AUART}",
+                "Subhead": "{AUART_TXT}",
+                "Tags": [],
+                "BodyText": "",
+                "Footnote": "",
+                "Description": "",
+                "StatusText": "",
+                "StatusImage": "",
+                "SubstatusImage": "",
+                "SubstatusText": ""
+            },
+            "_Type": "Section.Type.ObjectHeader"
+        }, {
+            "KeyAndValues": [{
+                    "KeyName": "AUART",
+                    "Value": "{AUART}"
+                },
+                {
+                    "KeyName": "AUART_TXT",
+                    "Value": "{AUART_TXT}"
+                }
+            ],
+            "Layout": {
+                "NumberOfColumns": 2
+            },
+            "MaxItemCount": 1,
+            "_Name": "SectionKeyValue0",
+            "_Type": "Section.Type.KeyValue"
+        }],
+        "_Type": "Control.Type.SectionedTable",
+        "_Name": "SectionedTable"
+    }],
+    "_Type": "Page",
+    "_Name": "OrderTypeSet_Detail"
+}

@@ -1,0 +1,12 @@
+{
+	"DestinationName": "PointsDeMesureSEGW",
+	"PathSuffix": "/sap/opu/odata/sap/ZFIORI_SAISIE_TEMPS_SRV_02/",
+	"LanguageURLParam": "sap-language",
+	"OfflineEnabled": true,
+	"OfflineOptions": {
+		"StoreParameters": {
+			"StoreName": "OrdersStore"
+		}
+	},
+	"SourceType": "Mobile"
+}

@@ -1,0 +1,15 @@
+{
+    "Service": "/testsegw/Services/PointsDeMesureSEGW.service",
+    "DefiningRequests": [{
+        "Name": "OrderTypeSet",
+        "Query": "OrderTypeSet"
+    }],
+    "_Type": "Action.Type.ODataService.Initialize",
+    "ShowActivityIndicator": true,
+    "ActivityIndicatorText": "Downloading...",
+    "ActionResult": {
+        "_Name": "init"
+    },
+    "OnSuccess": "/testsegw/Actions/Service/InitializeOfflineSuccessMessage.action",
+    "OnFailure": "/testsegw/Actions/Service/InitializeOfflineFailureMessage.action"
+}

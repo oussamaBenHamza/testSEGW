@@ -1,0 +1,10 @@
+{
+    "_Type": "Action.Type.OfflineOData.Close",
+    "Service": "/testsegw/Services/PointsDeMesureSEGW.service",
+    "Force": true,
+    "ActionResult": {
+        "_Name": "close"
+    },
+    "OnSuccess": "/testsegw/Actions/Service/CloseOfflineSuccessMessage.action",
+    "OnFailure": "/testsegw/Actions/Service/CloseOfflineFailureMessage.action"
+}
